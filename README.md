@@ -10,3 +10,5 @@
 ## 如何瀏覽
 1. 開啟 Github Pages 功能。
 2. 訪問專案網址即可看到動態網頁。
+
+[Live Demo](https://chiubaooo.github.io/nanzhuang-senior-arts-festival/)
