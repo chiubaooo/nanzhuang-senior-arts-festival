@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>苗栗南庄銀髮藝術節 | 跨越世代的藝術交響</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Noto+Sans+TC:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="fade-in">苗栗南庄<br><span class="highlight">銀髮藝術節</span></h1>
+            <p class="subtitle fade-in-delay">用長輩的筆觸，繪出慢城的生命色彩</p>
+            <div class="hero-btns fade-in-delay-2">
+                <a href="#story" class="btn primary">探索故事</a>
+                <a href="#tiers" class="btn secondary">支持計畫</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Narrative Section -->
+    <section id="story" class="section story">
+        <div class="container">
+            <div class="section-tag">專案初衷</div>
+            <h2 class="section-title">為什麼我們發起這場活動？</h2>
+            <div class="grid-2">
+                <div class="text-content">
+                    <p>在苗栗南庄的「銀粉村」，有一群被稱為「藝術練習生」的長輩。他們在志工與大學生的陪伴下，用顫抖卻堅定的手，在圓點中找回了對生命的熱情。</p>
+                    <p>我們希望透過這場「跨世代藝術節」，將這些隱藏在巷弄中的生命力，與專業工藝（法藍瓷）及音樂（南藝大）結合，讓全台灣看見南庄長輩的才華。</p>
+                </div>
+                <div class="image-showcase">
+                    <img src="assets/hero.png" alt="南庄藝術意象" class="floating-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strategy Section (SWOT & Benchmarking) -->
+    <section class="section strategy light">
+        <div class="container">
+            <div class="section-tag">策略深度</div>
+            <h2 class="section-title">戰略地位與行動方案</h2>
+            
+            <div class="tabs">
+                <button class="tab-btn active" onclick="showTab('swot')">SWOT 2.0 策略矩陣</button>
+                <button class="tab-btn" onclick="showTab('bench')">市場對標分析</button>
+            </div>
+
+            <div id="swot" class="tab-content active">
+                <div class="swot-grid">
+                    <div class="swot-card s"><h3>優勢 (S)</h3><p>故事感染力、專業跨界聯名、在地社群信任</p></div>
+                    <div class="swot-card w"><h3>劣勢 (W)</h3><p>物流風險、前期成本高、地點偏遠</p></div>
+                    <div class="swot-card o"><h3>機會 (O)</h3><p>地方創生政策、ESG需求、文化旅遊熱潮</p></div>
+                    <div class="swot-card t"><h3>威脅 (T)</h3><p>集資競爭激烈、氣候風險、健康變數</p></div>
+                </div>
+                <div class="strategy-matrix">
+                    <div class="strat-item">
+                        <h4>SO 增長策略</h4>
+                        <p>對接企業 ESG 窗口，將長輩故事包裝成高品質文化旅遊與實體展覽，吸引大額贊助。</p>
+                    </div>
+                    <div class="strat-item">
+                        <h4>WO 改進策略</h4>
+                        <p>透過集資解決資金口，並利用法藍瓷專業物流經驗優化包裝，降低損壞風險。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="bench" class="tab-content">
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>維度</th>
+                                <th>南庄銀髮藝術節</th>
+                                <th>民間公益案例</th>
+                                <th>政府大型節慶</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>核心價值</td>
+                                <td>藝術轉化與傳承</td>
+                                <td>物質與生計支援</td>
+                                <td>地區觀光美化</td>
+                            </tr>
+                            <tr>
+                                <td>受眾連結</td>
+                                <td>深度情感共鳴</td>
+                                <td>社會責任感</td>
+                                <td>休閒拍照打卡</td>
+                            </tr>
+                            <tr>
+                                <td>評析</td>
+                                <td class="highlight-text">具備收藏價值與專業感</td>
+                                <td>故事深度較不足</td>
+                                <td>缺乏人的精神核心</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reward Tiers Section -->
+    <section id="tiers" class="section tiers">
+        <div class="container">
+            <div class="section-tag">支持方案</div>
+            <h2 class="section-title">選擇您的贊助計畫</h2>
+            <div class="tier-grid">
+                <!-- Tier 1 -->
+                <div class="tier-card" data-price="$520">
+                    <div class="tier-header">數位溫情</div>
+                    <div class="price">NT$ 520</div>
+                    <ul>
+                        <li>數位藝術感謝卡 (設計師款)</li>
+                        <li>集資專員名錄標註</li>
+                    </ul>
+                    <a href="#" class="btn-tier">立即支持</a>
+                </div>
+                <!-- Tier 2 -->
+                <div class="tier-card" data-price="$980">
+                    <div class="tier-header">在地味蕾</div>
+                    <div class="price">NT$ 980</div>
+                    <ul>
+                        <li>實體原創感謝卡 (精緻印刷)</li>
+                        <li>南庄農會精選特產 (含運)</li>
+                        <li>藝術節紀念明信片套組</li>
+                    </ul>
+                    <a href="#" class="btn-tier">精選推薦</a>
+                </div>
+                <!-- Tier 3 -->
+                <div class="tier-card featured" data-price="$1,680">
+                    <div class="tier-header">大師共鳴</div>
+                    <div class="price">NT$ 1,680</div>
+                    <img src="assets/gift_pack.png" alt="法藍瓷聯名款" class="tier-img">
+                    <ul>
+                        <li>法藍瓷藝術聯名杯墊/瓷片</li>
+                        <li>南庄農會優質農產</li>
+                        <li><b>安全快遞：易碎品專業加固</b></li>
+                    </ul>
+                    <a href="#" class="btn-tier">最熱門</a>
+                </div>
+                <!-- Tier 4 -->
+                <div class="tier-card" data-price="$30,000">
+                    <div class="tier-header">企業夥伴</div>
+                    <div class="price">NT$ 30,000</div>
+                    <ul>
+                        <li>VIP 席位 x 5</li>
+                        <li>企業專屬導覽與接待</li>
+                        <li>品牌 Logo 聯名露出</li>
+                    </ul>
+                    <a href="#" class="btn-tier">企業對接</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="section partners">
+        <div class="container">
+            <div class="section-tag">合作夥伴</div>
+            <div class="partner-logos">
+                <div class="logo">法藍瓷</div>
+                <div class="logo">南藝大應用音樂系</div>
+                <div class="logo">好客在一起</div>
+                <div class="logo">台灣銀粉村協會</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 苗栗南庄銀髮藝術節 - 觀眾發展與行銷期末專案</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
